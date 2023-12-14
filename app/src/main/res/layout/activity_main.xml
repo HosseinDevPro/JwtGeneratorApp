@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="32dp"
+            android:text="Sample App For Generate JWT With Algorithm EC-256"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/headerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="32dp"
+            android:textColor="#5805EC"
+            android:textSize="20sp"
+            tools:text="Header" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/payloadTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="24dp"
+            android:textColor="#0429F3"
+            android:textSize="20sp"
+            tools:text="Payload" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/jwtTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="32dp"
+            android:textColor="#108715"
+            android:textSize="16sp"
+            tools:text="JWT" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/publicKeyTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="24dp"
+            android:textColor="#0C776D"
+            android:textSize="16sp"
+            tools:text="PublicKey" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/verifyTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginVertical="24dp"
+            android:textColor="#E91E63"
+            android:textSize="16sp"
+            android:text="You Can Verify It In: \n'https://token.dev' \nand \n'https://jwt.io/#debugger-io'" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
