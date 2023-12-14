@@ -1,6 +1,6 @@
-Simple Generation of JWT In Android Without Usig Any ThirdParty Library
+<h3>Simple Generation of JWT In Android Without Using Any ThirdParty Library</h3>
 
-Algorithm: Elliptic Curve with Key Size 256
+<i>Algorithm: Elliptic Curve with Key Size 256</i>
 
 Article Link: '[https](https://medium.com/@hossein_kheirollahpour)https://medium.com/@hossein_kheirollahpour'
 
