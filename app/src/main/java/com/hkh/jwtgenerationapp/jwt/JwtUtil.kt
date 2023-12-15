@@ -2,11 +2,13 @@ package com.hkh.jwtgenerationapp.jwt
 
 import android.os.Build
 import androidx.annotation.RequiresApi
+import com.hkh.jwtgenerationapp.jwt.Base64Util.base64UrlDecode
 import com.hkh.jwtgenerationapp.jwt.Base64Util.base64UrlEncode
 import com.hkh.jwtgenerationapp.jwt.Utils.toStandardByteArray
 import java.security.Signature
 import java.security.SignatureException
 import java.security.interfaces.ECPrivateKey
+import java.security.interfaces.ECPublicKey
 import kotlin.math.max
 import kotlin.math.min
 
@@ -85,6 +87,16 @@ object JwtUtil {
             sLength + min(sPadding, 0)
         )
         return joseSignature
+    }
+
+    @RequiresApi(Build.VERSION_CODES.O)
+    fun manualVerifyJWT(publicKey: ECPublicKey, jwt: String): Boolean {
+        val parts = jwt.split(".")
+        if (parts.size != 3) return false
+        val signature = Signature.getInstance("SHA256withECDSA")
+        signature.initVerify(publicKey)
+        signature.update("${parts[0]}.${parts[1]}".toByteArray())
+        return signature.verify(base64UrlDecode(parts[2]))
     }
 
 }
