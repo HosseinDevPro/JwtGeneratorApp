@@ -1,8 +1,8 @@
-package com.hkh.jwtgenerationapp.jwt
+package com.hkh.jwtgeneratorapp.jwt
 
 import android.os.Build
 import androidx.annotation.RequiresApi
-import com.hkh.jwtgenerationapp.jwt.Base64Util.base64Encode
+import com.hkh.jwtgeneratorapp.jwt.Base64Util.base64Encode
 import java.security.KeyPairGenerator
 import java.security.interfaces.ECPrivateKey
 import java.security.interfaces.ECPublicKey

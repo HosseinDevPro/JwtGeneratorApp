@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "JwtGenerationApp"
+rootProject.name = "JwtGeneratorApp"
 include(":app")
  

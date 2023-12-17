@@ -1,14 +1,14 @@
-package com.hkh.jwtgenerationapp
+package com.hkh.jwtgeneratorapp
 
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
-import com.hkh.jwtgenerationapp.databinding.ActivityMainBinding
-import com.hkh.jwtgenerationapp.jwt.ClaimsGenerator
-import com.hkh.jwtgenerationapp.jwt.JwtUtil
-import com.hkh.jwtgenerationapp.jwt.KeyGenerationUtil
+import com.hkh.jwtgeneratorapp.databinding.ActivityMainBinding
+import com.hkh.jwtgeneratorapp.jwt.ClaimsGenerator
+import com.hkh.jwtgeneratorapp.jwt.JwtUtil
+import com.hkh.jwtgeneratorapp.jwt.KeyGenerationUtil
 
 class MainActivity : AppCompatActivity() {
 

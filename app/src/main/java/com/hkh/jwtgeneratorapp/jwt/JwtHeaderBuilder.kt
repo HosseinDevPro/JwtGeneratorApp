@@ -1,4 +1,4 @@
-package com.hkh.jwtgenerationapp.jwt
+package com.hkh.jwtgeneratorapp.jwt
 
 import org.json.JSONObject
 

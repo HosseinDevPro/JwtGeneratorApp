@@ -1,4 +1,4 @@
-package com.hkh.jwtgenerationapp
+package com.hkh.jwtgeneratorapp
 
 import org.junit.Test
 

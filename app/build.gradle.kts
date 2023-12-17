@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.hkh.jwtgenerationapp"
+    namespace = "com.hkh.jwtgeneratorapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.hkh.jwtgenerationapp"
+        applicationId = "com.hkh.jwtgeneratorapp"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

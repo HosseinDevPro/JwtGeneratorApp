@@ -1,4 +1,4 @@
-package com.hkh.jwtgenerationapp.jwt
+package com.hkh.jwtgeneratorapp.jwt
 
 import android.os.Build
 import androidx.annotation.RequiresApi
