@@ -2,7 +2,7 @@
 
 <i>Algorithm: Elliptic Curve with Key Size 256</i>
 
-Article Link: '[https](https://medium.com/@hossein_kheirollahpour/implementing-authentication-with-jwt-in-android-without-using-a-library-5b01ea53a9e9)[https://medium.com/@hossein_kheirollahpour](https://medium.com/@hossein_kheirollahpour/implementing-authentication-with-jwt-in-android-without-using-a-library-5b01ea53a9e9)'
+Article Link: '[https](https://medium.com/@hossein_kheirollahpour/implementing-authentication-with-jwt-in-android-without-using-a-library-5b01ea53a9e9)[https://medium.com/@hossein_kheirollahpour/implementing-authentication-with-jwt-in-android-without-using-a-library-5b01ea53a9e9]'
 
 ScreenShot:
 
